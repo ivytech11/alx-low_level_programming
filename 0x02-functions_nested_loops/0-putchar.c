@@ -1,9 +1,14 @@
 #include <unistd.h>
 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
     char c = '_';
-    
+
     _putchar(c); /* prints the character '_' */
     c = 'p';
     _putchar(c); /* prints the character 'p' */
@@ -21,7 +26,7 @@ int main(void)
     _putchar(c); /* prints the character 'r' */
     c = '\n';
     _putchar(c); /* prints a new line character */
-    
+
     return (0);
 }
 
