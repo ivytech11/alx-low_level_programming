@@ -1,0 +1,2 @@
+all task on loops
+

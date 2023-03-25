@@ -1,32 +1,21 @@
-#include <unistd.h>
-
+#include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - print _putchar
+ * is written by mbah
+ * Return: 0
  */
+
 int main(void)
 {
-    char c = '_';
-
-    _putchar(c); /* prints the character '_' */
-    c = 'p';
-    _putchar(c); /* prints the character 'p' */
-    c = 'u';
-    _putchar(c); /* prints the character 'u' */
-    c = 't';
-    _putchar(c); /* prints the character 't' */
-    c = 'c';
-    _putchar(c); /* prints the character 'c' */
-    c = 'h';
-    _putchar(c); /* prints the character 'h' */
-    c = 'a';
-    _putchar(c); /* prints the character 'a' */
-    c = 'r';
-    _putchar(c); /* prints the character 'r' */
-    c = '\n';
-    _putchar(c); /* prints a new line character */
-
-    return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
 
